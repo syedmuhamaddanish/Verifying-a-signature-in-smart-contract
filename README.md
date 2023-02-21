@@ -1,6 +1,6 @@
 # Verify a digital signature in solidity smart contract
 
-This code is motivated from the smart contract (), however, I have modified this and implemented the hash functionalities outside of smart contract to optimize the gas. Only the verification is done on-chain. Message signing and hashing is done off-chain
+This code is motivated from the smart contract (https://solidity-by-example.org/signature/), however, I have modified this and implemented the hash functionalities outside of smart contract to optimize the gas. Only the verification is done on-chain. Message signing and hashing is done off-chain
 
 This project demonstrates a basic digital signature verification process, where a signature is created off-chain, and is sent to the smart contract for verification. You can use the blockchain of your own choice, and its corresponding rpc url in hardhat-config.js.
 
